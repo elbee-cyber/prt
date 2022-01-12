@@ -7,6 +7,19 @@
 Simply run `setup.sh` to automatically install the required python libraries.
 
 ### Usuage
+```
+  -q, --quiet           Do not display banner.
+  -u USER, --user USER  Hackerone username.
+  -t TOKEN, --token TOKEN
+                        Hackerone API token.
+  -p PROGRAM, --program PROGRAM
+                        Program handle, not program name.
+  -i, --info            Display program information.
+  -o OUTPUT, --output OUTPUT
+                        Output results to a file.
+  -w WAIT, --wait WAIT  Pause between Google dorks.
+  -n, --noprint         Don't print found assets at the end of execution.
+ ```
 
 
 ### The Process
