@@ -1,4 +1,4 @@
-## Hackerone Passive Recon Tool
+# Hackerone Passive Recon Tool
 **LA passive-recon tool that parses through found assets and interacts with the Hackerone API.**
 
 ![Demo](https://s10.gifyu.com/images/ezgif.com-gif-maker478b5d3b2a6a6a97.gif)
