@@ -1,5 +1,5 @@
 # Hackerone Passive Recon Tool
-**LA passive-recon tool that parses through found assets and interacts with the Hackerone API.**
+**A passive-recon tool that parses through found assets and interacts with the Hackerone API.**
 
 ![Demo](https://s10.gifyu.com/images/ezgif.com-gif-maker478b5d3b2a6a6a97.gif)
 
@@ -33,4 +33,5 @@ Throughout the process, assets that are out of scope are dropped.
 This tool should not be relied on soley to retrieve accurate and culminating results. Use your arsenal and judgement. I am not responsible for the misuse of this tool.
 
 https://buymeacoffee.com/elbee1
+
 https://twitter.com/elbee_ez
