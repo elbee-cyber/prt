@@ -31,3 +31,6 @@ Simply run `setup.sh` to automatically install the required python libraries.
 Throughout the process, assets that are out of scope are dropped.
 
 This tool should not be relied on soley to retrieve accurate and culminating results. Use your arsenal and judgement. I am not responsible for the misuse of this tool.
+
+https://buymeacoffee.com/elbee1
+https://twitter.com/elbee_ez
