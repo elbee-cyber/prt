@@ -16,7 +16,7 @@ main() {
             then
                 echo "Permission required"
             fi
-            sudo cp passive_recon.py /usr/bin/passive_recon.py
+            sudo cp ./passive_recon.py /usr/bin/passive_recon.py
         elif [[ $menu == "N" || $menu == "n" ]]
         then
             echo "There is nothing to do"
