@@ -4,6 +4,7 @@ import requests, argparse, sys, os, time, sublist3r, string, random
 from googlesearch import search
 from bs4 import BeautifulSoup
 from tld import get_tld
+from ping3 import ping
 
 def banner(hide):
 	if hide:
@@ -241,6 +242,15 @@ def main():
 
 
 	domains = list(set(domains))
+	
+	skipAliveCheck = confirm("\nWould you like to ping enumerated assets to check for life? (root) (Y/N) ")
+	if skipAliveCheck != 'N':
+		if os.geteuid() == 0:
+			for i in domains:
+				if ping(i) == False:
+					domains.remove(i)
+		else:
+			print("\nMust be sudo to utilize this feature.\n")
 
 	if args.output:
 		print("Writing to "+args.output+"...")
