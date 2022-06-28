@@ -5,6 +5,7 @@
 /usr/bin/pip3 install googlesearch-python
 /usr/bin/pip3 install BeautifulSoup
 /usr/bin/pip3 install tld
+/usr/bin/pip3 install ping3
 
 /usr/bin/chmod +x ./passive_recon.py
 
